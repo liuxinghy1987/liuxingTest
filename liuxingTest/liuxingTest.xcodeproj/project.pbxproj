@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7979FFE21E4A90400AF6415 /* Tool1.m in Sources */ = {isa = PBXBuildFile; fileRef = A7979FFD21E4A90400AF6415 /* Tool1.m */; };
 		A7B3857E21E44DBB0045FF5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B3857D21E44DBB0045FF5A /* AppDelegate.m */; };
 		A7B3858121E44DBB0045FF5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B3858021E44DBB0045FF5A /* ViewController.m */; };
 		A7B3858421E44DBB0045FF5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B3858221E44DBB0045FF5A /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7979FFC21E4A90400AF6415 /* Tool1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool1.h; sourceTree = "<group>"; };
+		A7979FFD21E4A90400AF6415 /* Tool1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool1.m; sourceTree = "<group>"; };
 		A7B3857921E44DBB0045FF5A /* liuxingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liuxingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B3857C21E44DBB0045FF5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7B3857D21E44DBB0045FF5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7979FFB21E4A8F400AF6415 /* Tool1 */ = {
+			isa = PBXGroup;
+			children = (
+				A7979FFC21E4A90400AF6415 /* Tool1.h */,
+				A7979FFD21E4A90400AF6415 /* Tool1.m */,
+			);
+			path = Tool1;
+			sourceTree = SOURCE_ROOT;
+		};
 		A7B3857021E44DBB0045FF5A = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		A7B3857B21E44DBB0045FF5A /* liuxingTest */ = {
 			isa = PBXGroup;
 			children = (
+				A7979FFB21E4A8F400AF6415 /* Tool1 */,
 				A7B3857C21E44DBB0045FF5A /* AppDelegate.h */,
 				A7B3857D21E44DBB0045FF5A /* AppDelegate.m */,
 				A7B3857F21E44DBB0045FF5A /* ViewController.h */,
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B3858121E44DBB0045FF5A /* ViewController.m in Sources */,
+				A7979FFE21E4A90400AF6415 /* Tool1.m in Sources */,
 				A7B3858C21E44DBC0045FF5A /* main.m in Sources */,
 				A7B3857E21E44DBB0045FF5A /* AppDelegate.m in Sources */,
 			);
