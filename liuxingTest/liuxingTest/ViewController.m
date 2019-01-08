@@ -18,6 +18,7 @@
     [super viewDidLoad];
 
     NSLog(@"d打印操作2");
+    NSLog(@"打印操作3");
 
 }
 
