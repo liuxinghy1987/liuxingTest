@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "liuxingTest"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "jianjieliuxingTest."
   s.description  = <<-DESC 
-                       这是一个测试文档, 这里主要是描述类库的功能设计初衷介绍
+                       这是一个测试文档111, 这里主要是描述类库的功能设计初衷介绍
                       DESC
 
   s.homepage     = "https://github.com/liuxinghy1987/liuxingTest"
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/liuxinghy1987/liuxingTest.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/liuxinghy1987/liuxingTest.git", :tag => "1.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
